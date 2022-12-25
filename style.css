@@ -1,0 +1,1619 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Public Sans", sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    height: 10%;
+    background-color: #fae6e9;
+    padding: 0 7%;
+    position: fixed ;
+    top: 0;
+    width: 100%;
+}
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.line{
+    width: 1px;
+    background-color: black;
+    height: 40px;
+    margin: 0 10px 0 10px;
+}
+.button-stay{
+    background-color: #0568fd;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.main{
+    background-color: #fae6e9 ;
+    height: 90vh;
+    width: 100%;
+    margin-top: 100px;
+}
+/*--------------section1-----------------*/
+.section1{
+    height: 90vh;
+    width: 100%;
+    background-color: #fae6e9;
+    display: flex;
+    padding: 0 7%;
+}
+.middle{
+    width: 50%;
+}
+.right-middle {
+    background-image:url("/images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 
+}
+.podcast > i{
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+.links-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.left-middle > p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    max-width: 610px;
+}
+
+/*--------------section2-----------------*/
+.section2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding:  0 6%;
+}
+.left-section2{
+    width: 50%;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6%;
+    font-size: 20px;
+    line-height: 30px;
+}
+.caja{
+    margin-top: 30px;
+}
+.input{
+    height: 50px;
+    width: 70%;
+    border: 1px solid gray;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.button1{
+    background-color: #0568fd;
+    color: white;
+    width: 25%;
+    height: 50px;
+    font-size: 16px;
+    margin-left: 70%;
+    margin-top: -50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.right-section2{
+    width: 53%;
+}
+.right-section2 > img{
+    width: 65%;
+    padding-top: 27%;
+    margin-left: 22%;
+    height: 82%;
+    border-radius: 15px;
+}
+/*--------------section3-----------------*/
+.section3{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    padding:  0 3%;
+}
+.left-section3{
+    width: 50%;
+}
+.right-section3{
+    width: 50%;
+    display: flex;
+}
+.left-section3 > img{
+    width: 100%;
+    height: 67%;
+    border-radius: 15px;
+}
+.featured{
+    color: #d9508d;
+    font-size: 12px;
+    margin-top: 25%;
+    margin-left: 22%;
+    font-weight: 700;
+}
+.teresa{
+    color: black;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.fecha-section3{
+    color: #94A3B8;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.parrafo{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 23px;
+    line-height: 25px;
+}
+.button-section3{
+    background-color: #0568fd;
+    color: white;
+    width: 32%;
+    height: 55px;
+    border-radius: 27px;
+    margin-top: 35px;
+    font-size:18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+}
+.icono-section3{
+    color: white;
+    font-size: 32px;
+    margin-top: -27px;
+    margin-left: -30px;
+}
+.episodes{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 22%;
+}
+.texto-section3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+
+/*personajes*/
+
+/*--------------secciones-----------------*/
+.sectiones{
+    margin-top: 3%;
+    padding: 3%;
+    width: 100%;
+    min-height: 650vh;
+}
+
+/*--------------section4-----------------*/
+.section4{
+    width: 100%;
+    height: 46vh;
+    border: 2px solid black;
+    border-radius: 17px;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.boton{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -18%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono3-share{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.share > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+/*--------------section5-----------------*/
+
+.section5{
+    width: 100%;
+    min-height: 46vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+/*--------------section6-----------------*/
+
+.section6{
+    width: 100%;
+    min-height: 50vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+/*--------------section7-----------------*/
+.section7{
+    width: 100%;
+    min-height: 50vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+/*--------------section8-----------------*/
+.section8{
+    width: 100%;
+    min-height: 50vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+.moree{
+    background-color: #0568fd;
+    color: white;
+    width: 175px;
+    height: 57px;
+    border-radius: 32px;
+    margin-top: 90%;
+    font-size: 15px;
+    padding-left: 40px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: -420%;
+    cursor: pointer;
+}
+.controller:checked + .section10{
+    display: block;
+}
+.section10{
+    display: none;
+}
+
+
+
+
+/*--------------section9-----------------*/
+.section9{
+    width: 100%;
+    min-height: 50vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 15%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+
+/*--------------section10-----------------*/
+.section10{
+    width: 100%;
+    min-height: 47vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.cuadro{
+    margin-top: 25px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+/*--------------section11-----------------*/
+.section11{
+    width: 100%;
+    min-height: 47vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+
+/*--------------section12-----------------*/
+.section12{
+    width: 100%;
+    min-height: 47vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+/*--------------section13-----------------*/
+.section13{
+    width: 100%;
+    min-height: 47vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.cuadro2{
+    margin-top: 5px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+/*--------------section14-----------------*/
+.section14{
+    width: 100%;
+    min-height: 47vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+
+
+/*--------------section15-----------------*/
+.section15{
+    width: 100%;
+    min-height: 47vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button2{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -25%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+/*--------------section16-----------------*/
+.section16{
+    width: 100%;
+    min-height: 50vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button3{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -29%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+
+/*--------------section17-----------------*/
+.section17{
+    width: 100%;
+    min-height: 55vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button4{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -31%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+
+/*--------------section18-----------------*/
+.section18{
+    width: 100%;
+    min-height: 50vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button5{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -22%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+
+
+/*--------------section19-----------------*/
+.section19{
+    width: 100%;
+    min-height: 50vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 2.5%;
+}
+.imagen > img{
+    height: 25%;
+    width: 18%;
+    padding-top: 2.5%;
+    margin-left: 2.5%;
+}
+.titulo{
+    padding-left: 26%;
+    margin-top: -18%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.fecha{
+    color: #94A3B8;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.texto{
+    color: black;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button5{
+    background-color: #0568fd;
+    color: white;
+    width: 17%;
+    height: 56px;
+    border-radius: 32px;
+    margin-top: -22%;
+    font-size: 18px;
+    padding-left: 64px;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 80%;
+}
+.reproducir{
+    color: white;
+    font-size: 30px;
+    margin-top: -29px;
+    margin-left: -30px;
+}
+.icono1-subscribe{
+    color: black;
+    margin-top: 52px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.subscribe > p{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icono2-transcript{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.transcript > p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+/*--------------section20-----------------*/
+
+.section20{
+    margin-top: 25%;
+    width: 100%;
+    min-height: 100vh;
+}
+.izquierda{
+    width: 50%;
+    min-height: 100vh ;
+}
+.meet{
+    margin-top: 17%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.parrafom{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.connect{
+    margin-top: 35px;
+}
+.twitter{
+    margin-left: 30%;
+    margin-top: -4.5%;
+    font-size: 25px;
+}
+.in{
+    margin-left: 13%;
+    margin-top: -7%;
+}
+.mujer > img{
+    width: 130%;
+    height: 175%;
+    margin-left: 134%;
+    margin-top: -100%;
+    border-radius: 12px;
+}
+
+/*--------------section21-----------------*/
+
+.section21{
+    width: 100%;
+    height: 100vh;
+}
+.theoptimal{
+    margin-top: -32%;
+    margin-left: 15%;
+    font-size: 60px;
+    font-weight: 700;
+}
+.margen > img{
+    width: 100%;
+}
+.cajita{
+    margin-top: 30px;
+}
+.input1{
+    height: 50px;
+    width: 30%;
+    border: 1px solid gray;
+    padding-left: 20px;
+    font-size: 17px;
+    margin-left: 20%;
+}
+button{
+    height: 50px;
+    width: 12%;
+    background-color: #0568fd;
+    color: white;
+    margin-left: -13px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid #0568fd;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+/*--------------section22-----------------*/
+.sectionn22{
+    margin-top: 12%;
+    width: 100%;
+    height: 143vh;
+}
+.icono22 > img{
+    margin-left: 15px;
+}
+.product > p{
+    margin-left: 20%;
+    margin-top: -3%;
+    font-weight: 700;
+    font-size: 17.5px;
+}
+.abajo{
+    margin-left: 20%;
+    margin-top: 30px;
+    font-weight: 300;
+    color: #51555a;
+    line-height: 35px;
+}
+.use > p{
+    color: black;
+    font-weight: 700;
+    margin-left: 25%;
+    margin-top: -31.5%;
+    font-size: 17.5px;
+}
+.abajo2{
+    margin-left: 25%;
+    margin-top: 2.5%;
+}
+.resources > p{
+    color: black;
+    font-weight: 700;
+    margin-left: 35%;
+    margin-top: -25%;
+    font-size: 17.5px;
+}
+.abajo3{
+    margin-left: 35%;
+    margin-top: 2.5%;
+}
+.company > p{
+    color: black;
+    font-weight: 700;
+    margin-left: 55%;
+    margin-top: -117%;
+    font-size: 17.5px;
+}
+.abajo4{
+    margin-left: 55%;
+    margin-top: 4%;
+}
+.copy{
+    margin-left: -455%;
+    margin-top: 250%;
+    font-size: 13px;
+    word-spacing: 5px;
+}
+.face{
+    margin-top: -20px;
+    margin-left: 83%;
+    color: black;
+    font-size: 20px;
+}
+.inn{
+    margin-left: 23%;
+    margin-top: -33px;
+    font-size: 22px;
+}
+.twitter{
+    font-size: 18px;
+    margin-top: -33px;
+}
+.instragram{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: -35px;
+}
